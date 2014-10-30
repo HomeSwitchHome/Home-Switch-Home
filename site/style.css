@@ -1,0 +1,290 @@
+/*Style de la home page*/
+
+*
+{
+	font-family: arial;
+	color: #0371bc;
+    font-size: 100%;
+}
+
+body
+{
+	background: #f7fbfc; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #f7fbfc 50%, #a6c4db 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(50%,#f7fbfc), color-stop(100%,#a6c4db)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #f7fbfc 50%,#a6c4db 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #f7fbfc 50%,#a6c4db 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #f7fbfc 50%,#a6c4db 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #f7fbfc 50%,#a6c4db 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fbfc', endColorstr='#a6c4db',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+/*Style de la bannière*/
+
+.header
+{
+	text-align: center;
+	color: #0371bc;
+	padding-bottom: 20px;
+}
+
+.logo
+{	
+	float: left;
+	width: 150px;
+	padding: 0px 0px 20px 0px;
+}
+
+.header_member_menu
+{
+	float: right;
+	font-size: 100%;
+	border-left: 1px #0371bc solid;
+}
+
+.header_subscription
+{
+	display: inline-block;
+	margin: 0px 20px 0px 20px;
+}
+
+.header_login
+{
+	display: inline-block;
+	margin: 0px 20px 0px 20px;
+}
+
+.header_profile
+{
+	display: inline-block;
+	margin: 0px 20px 0px 20px;
+}
+
+.header_title
+{
+	display: inline-block;
+}
+
+.header_bar_menu
+{
+	display: block;
+	border-top: 1px #0371bc solid;
+	border-bottom: 1px #0371bc solid;
+	padding: 20px 0px 20px 0px;
+	clear: both;
+}
+
+.header_forum
+{
+	display: inline-block;
+	border-right: 1px #0371bc solid;
+	padding: 0px 100px 0px 100px;
+}
+
+.header_member_list
+{
+	display: inline-block;
+	border-right: 1px #0371bc solid;
+	padding: 0px 100px 0px 100px;
+}
+
+.header_search
+{
+	display: inline-block;
+	border-right: 1px #0371bc solid;
+	padding: 0px 100px 0px 100px;
+}
+
+.header_simple_search
+{
+	display: inline-block;
+	font-size: 80%;
+	padding: 0px 100px 0px 100px;
+}
+
+.footer
+{
+	display: block;
+	border-top: 1px #0371bc solid;
+	padding: 10px 0px 10px 0px;
+	font-size: 100%;
+}
+
+.footer_use_conditions
+{
+	display: inline-block;
+	border-right: 1px #0371bc solid;
+	padding: 0px 100px 0px 100px;
+}
+
+.footer_privacy
+{
+	display: inline-block;
+	border-right: 1px #0371bc solid;
+	padding: 0px 100px 0px 100px;
+}
+
+.footer_rules
+{
+	display: inline-block;
+	border-right: 1px #0371bc solid;
+	padding: 0px 100px 0px 100px;
+}
+
+.footer_contact
+{
+	display: inline-block;
+	padding: 0px 100px 0px 100px;
+}
+
+nav
+{
+	font-size: 120%;
+	text-align: center;
+}
+
+aside
+{
+	float: left;
+	color: #0371bc;
+	text-align: center;
+	border: 2px solid #ff931e;
+	border-radius: 5px;	
+	box-shadow: 2px 4px 4px #0371bc;
+	padding: 25px;
+	max-width: 400px;
+	overflow: auto;
+}
+
+.article_home_page
+{
+	margin-left: 475px;
+}
+
+section
+{
+	clear: both;
+}
+
+h2, h3, h2 strong, h3 strong
+{
+	text-align: center;
+	color: #0371bc;
+	font-style: italic;
+}
+
+h2
+{
+	font-size: 150%;
+}
+
+h3
+{
+	font-size: 120%;
+}
+
+mark
+{
+	font-style: italic;	
+	text-decoration: underline;
+	background-color: rgba(0,0,0,0);
+	color: #ff931e;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:visited, label, .ok
+{
+	color: #0371bc;
+}
+
+.introduction
+{
+	font-style: italic;
+}
+
+.nous
+{
+	font-style: italic;
+	text-align: center;
+}
+
+.formulaire
+{
+	color: #0371bc;
+	text-align: center;
+	display: inline-block;
+}
+
+.subscription, .login, .profile
+{
+	text-align: center;
+}
+
+.home_left
+{
+	float: left;
+	text-align: center;
+	width: 50%;
+	display: inline-block;
+	border-right: 1px solid #0371bc;
+	border-bottom: 1px solid #0371bc;
+	padding-bottom: 20px;
+}
+
+.home_right
+{
+	float: right;
+	text-align: center;	
+	width: 50%;
+	display: inline-block;
+	position: relative;
+	bottom: 169px;
+	border-bottom: 1px solid #0371bc;
+	padding-bottom: 20px;
+}
+
+.home_center_left
+{
+	float: left;
+	position: relative;
+	bottom: 170px;
+	width: 50%;
+	border-right: 1px solid #0371bc;
+	height: 210px;
+}
+
+.home_equipments_left
+{
+	float: left;
+	width: 50%;
+	border-right: 1px solid #0371bc;
+}
+
+.home_equipments_right
+{
+	position: relative;
+	bottom: 99px;
+	float: right;
+	width: 50%;
+}
+
+.home_other_equipments
+{
+	clear: both;
+	position: relative;
+	bottom: 79px;
+}
+
+.home_bottom
+{
+	clear: both;
+	border-top: 1px solid #0371bc;
+	padding-top: 20px;
+	position: relative;
+	bottom: 170px;
+	height: 0px;
+}

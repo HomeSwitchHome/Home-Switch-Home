@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <title>Présentation formulaire</title>
+    </head>
+
+    <body>
+
+    <form method="post" action="form.php"> <!-- on peut aussi utiliser "get" comme method, mais elle est limitée (255 caractères max) et les informations seront envoyés via l'url de la page -->
+        <label for="text_form">Formulaire de texte : </label><input type="text" name"text_form" placeholder="Zone de texte..."/><br/><br/>
+
+        <label for="number_form">Formulaire de nombre : </label><input type="number" name"number_form"/><br/><br/>
+
+        <label for="mail_form">Formulaire d'adresse mail : </label><input type="email" name"mail_form"/><br/><br/>
+
+        <label for="url_form">Formulaire d'url : </label><input type="url" name"url_form"/><br/><br/>
+
+        <label for="password_form">Formulaire de mot de passe : </label><input type="password" name"password_form"/><br/><br/>
+
+        <label for="phone_form">Formulaire de numéro de téléphone : </label><input type="tel" name"phone_form"/><br/><br/> <!-- sur Android/iOS, le smartphone affichera alors un clavier spécialisé -->
+
+        <label for="text_area_forum">Zone de texte : </label><textarea name="text_area_form">On peut le pré-remplir !</textarea><br/><br/>
+
+        <label for="range_form">Curseur : </label><input type="range" name"range_form"/><br/><br/>
+
+        <label for="search_form">Formulaire de recherche : </label><input type="search" name"search_form"/><br/><br/> <!-- sur certains navigateurs, une loupe sera affichée -->
+
+        <label for="check_form">Cases à cocher : </label><input type="checkbox" name"check_form"/> Rouge <input type="checkbox" name"check_form"/> Vert <input type="checkbox" name"check_form"/> Bleu<br/><br/>
+
+        <label for="date">Menus déroulants (pour une date par exemple) : </label>
+                    <select name="date" id="day">
+                        <option value="null"></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+
+                    <select name="date" id="month">
+                        <option value="null"></option>
+                        <option value="january">Janvier</option>
+                        <option value="february">Février</option>
+                        <option value="march">Mars</option>
+                        <option value="april">Avril</option>
+                        <option value="may">Mai</option>
+                        <option value="june">Juin</option>
+                        <option value="july">Juillet</option>
+                        <option value="august">Août</option>
+                        <option value="september">Septembre</option>
+                        <option value="october">Octobre</option>
+                        <option value="november">Novembre</option>
+                        <option value="december">Décembre</option>
+                    </select>
+
+                    <input type="number" name="date" id="year"/><br/><br/>
+
+        <label for="radio_forum">Case à cocher (une seule possibilité) : <br/> Vous avez compris ?</label><input type="radio" name="radio_form"> Oui !
+    </form>
+
+    </body>
+</html>
